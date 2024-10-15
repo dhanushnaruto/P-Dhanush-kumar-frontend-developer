@@ -9,7 +9,7 @@ import  graph from '../../assets/graphimg.png'
 import tools from '../../assets/toolsimg.png'
 import robot from '../../assets/robot.png'
 import camera from '../../assets/cameraimg.png'
-import video1 from '../../assets/video1.mp4'
+import video from '../../assets/video1.mp4'
 import Donut from '../../assets/Donut.png'
 import phase2 from '../../assets/phase2.png'
 import phase1 from '../../assets/Phase1.png'
@@ -121,7 +121,7 @@ function Home() {
         
         <div className='relative graph-container'>
             <div>
-                <video autoPlay loop muted src={video1} className="absolute top-0 left-0 w-full object-cover small-device-bg-video" />
+                <video autoPlay loop muted src={video} className="absolute top-0 left-0 w-full object-cover small-device-bg-video" />
                     <div className='relative z-1 text-white'>
                             <h1 className='text-center tokenmonies-text'>Tokenmoies</h1>
                             <div className='h-full flex flex-row justify-center items-center w-full small-device-bg-video'>
