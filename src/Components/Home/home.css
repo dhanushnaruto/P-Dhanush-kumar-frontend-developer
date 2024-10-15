@@ -1,0 +1,64 @@
+.total-container{
+    background: var(--color-cyan-6, #00161D);
+    padding: 15px;
+    height: 100%;
+    
+}
+.small-device-bg-video{
+    height: 60vh;
+}
+.tools-total-container{
+    width: 100%;
+}
+.tools-container{
+    width: 100%;
+}
+@media (min-width:1024px){
+    .small-device-bg-video{
+        height: 70vh;
+    }
+    .first-container{
+        height: 70vh;
+        
+    }
+    .tools-total-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tools-container{
+        width: 70%; 
+    }
+    .graph-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .graph-image{
+        position: relative;
+        top: 10px;
+        left: 10rem;
+        height: 300px;
+        width: 400px;
+    }
+    .form-container{
+        margin-top: 5rem;
+    }
+    .tokenmonies-text{
+        margin-left: 15rem;
+    }
+    .explore-card{
+        width: 50vw;
+    }
+    .questions-container{
+        margin-top: 5rem;
+    }
+    .explore-container{
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+}
